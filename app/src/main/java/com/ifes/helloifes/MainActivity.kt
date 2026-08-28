@@ -41,16 +41,16 @@ fun Greeting() {
 
 
     Column(
-        modifier = Modifier.padding(top = 32.dp),
-        verticalArrangement = Arrangement.spacedBy(60.dp),
+        modifier = Modifier.padding(top = 35.dp),
+        verticalArrangement = Arrangement.spacedBy(65.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Cartão Digital do Estudante",
+            text = "Dupla Dinâmica Líderes do Fanclube do Bruno Cardoso Coutinho ( DDLFBCC) PLUS",
             color = Color(0xffdae022),
             fontSize = 42.sp,
             textAlign = TextAlign.Center,
-            lineHeight = 32.sp
+            lineHeight = 50.sp
 
         )
 
@@ -58,15 +58,23 @@ fun Greeting() {
             verticalArrangement = Arrangement.spacedBy(10.dp)
         ) {
             Text(
-                text = "Gabriely Julia Rodrigues Nunes",
+                text = "   Gabriely Julia                Rafael Antunes",
                 color = Color.White,
-                fontSize = 32.sp,
+                fontSize = 20.sp,
                 textAlign = TextAlign.Center
 
             )
             Text(
-                text = "Estudante de Técnico em Informática no IFES",
+                text = "  Rodrigues Nunes               Hoffmann",
                 color = Color.White,
+                fontSize = 20.sp,
+                textAlign = TextAlign.Center
+
+            )
+
+            Text(
+                text = "Estudantes de Técnico em Informática no IFES",
+                color = Color.Yellow,
                 fontSize = 24.sp,
                 textAlign = TextAlign.Center,
                 lineHeight = 32.sp
@@ -84,7 +92,7 @@ fun Greeting() {
         }
 
         Text(
-            text = "lógica é comigo mesmo",
+            text = "mestres em paparicar a orelha do divino e glorioso Bruno Cardume Coutão",
             color = Color(0xffdae022),
             fontSize = 20.sp,
             textAlign = TextAlign.Center,
