@@ -42,13 +42,13 @@ fun Greeting() {
 
     Column(
         modifier = Modifier.padding(top = 35.dp),
-        verticalArrangement = Arrangement.spacedBy(65.dp),
+        verticalArrangement = Arrangement.spacedBy(36.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
             text = "Dupla Dinâmica Líderes do Fanclube do Bruno Cardoso Coutinho ( DDLFBCC) PLUS",
             color = Color(0xffdae022),
-            fontSize = 32.sp,
+            fontSize = 28.sp,
             textAlign = TextAlign.Center,
             lineHeight = 50.sp
 
@@ -83,7 +83,15 @@ fun Greeting() {
             Text(
                 text = " Rafael - gosto de desenhar o Coutinho em TODAS as aulas, gosto de programação de jogos",
                 color = Color.White,
-                fontSize = 17.sp,
+                fontSize = 20.sp,
+                textAlign = TextAlign.Center,
+                lineHeight = 32.sp
+
+            )
+            Text(
+                text = " Gabriely - Jogadora profissional de Subnautica 2 e Hollow Knight Silksong, linguagem favorita: java ",
+                color = Color.White,
+                fontSize = 20.sp,
                 textAlign = TextAlign.Center,
                 lineHeight = 32.sp
 
