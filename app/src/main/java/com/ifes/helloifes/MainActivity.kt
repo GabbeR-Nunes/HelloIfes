@@ -48,7 +48,7 @@ fun Greeting() {
         Text(
             text = "Dupla Dinâmica Líderes do Fanclube do Bruno Cardoso Coutinho ( DDLFBCC) PLUS",
             color = Color(0xffdae022),
-            fontSize = 42.sp,
+            fontSize = 32.sp,
             textAlign = TextAlign.Center,
             lineHeight = 50.sp
 
@@ -73,7 +73,7 @@ fun Greeting() {
             )
 
             Text(
-                text = "Estudantes de Técnico em Informática no IFES",
+                text = "Estudantes de Técnico em Informática no IFES, matéria favorita: Desenvolvimento Mobile",
                 color = Color.Yellow,
                 fontSize = 24.sp,
                 textAlign = TextAlign.Center,
@@ -81,7 +81,15 @@ fun Greeting() {
 
             )
             Text(
-                text = "\"Comandante de Linha e Líder do Fanclube do Bruno Coutinho 👌😘\"",
+                text = " Rafael - gosto de desenhar o Coutinho em TODAS as aulas, gosto de programação de jogos",
+                color = Color.White,
+                fontSize = 17.sp,
+                textAlign = TextAlign.Center,
+                lineHeight = 32.sp
+
+            )
+            Text(
+                text = "\"Comandante de Linha e Líder do Fanclube do Bruno Coutinho 👌😘\" ",
                 color = Color(0xffe0a722),
                 fontSize = 24.sp,
                 textAlign = TextAlign.Center,
@@ -92,7 +100,7 @@ fun Greeting() {
         }
 
         Text(
-            text = "mestres em paparicar a orelha do divino e glorioso Bruno Cardume Coutão",
+            text = " Programar um jogo em que o Bruno Cardume Coutão seja o protagonista com seus aliados Rafael e gabriely ",
             color = Color(0xffdae022),
             fontSize = 20.sp,
             textAlign = TextAlign.Center,
